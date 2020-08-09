@@ -17,7 +17,11 @@ export class AvatarService {
   };
 
   saveAsPng() {
-    svgHelper.saveSvgAsPng(d3.select('#avatar').node(), 'amelia.png', {scale: 1, encoderOptions: 1});
+    svgHelper.saveSvgAsPng(d3.select('#avatar').node(), 'amelia.png', {
+      scale: 1,
+      encoderOptions: 1,
+      backgroundColor: 'white',
+    });
     this.refreshAvatar();
   }
 
