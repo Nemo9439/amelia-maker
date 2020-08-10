@@ -26,6 +26,7 @@ $candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent, $candy-
 html,
 body {
   height: 100%;
+  color: #ff9800;
 }
 
 body {
@@ -36,4 +37,12 @@ body {
 
 .flex-container {
   display: flex;
+}
+
+.btn-div {
+  cursor: pointer;
+}
+
+.space-between {
+  justify-content: space-between;
 }

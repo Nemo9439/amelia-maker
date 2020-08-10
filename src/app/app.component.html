@@ -1,13 +1,18 @@
 <h1>Amelia Maker</h1>
-<div class="main-content">
-  <div>
-    <app-avatar *ngIf="avatarService.isAvatarVisible"></app-avatar>
+<div class="main-content flex-container space-between">
+  <div class="avatar-section">
+    <app-avatar *ngIf="avatarService.isAvatarVisible" [avatarState]="avatarService.avatarState"></app-avatar>
     <app-action-buttons></app-action-buttons>
   </div>
 
-  <mat-tab-group mat-align-tabs="Head">
-    <mat-tab label="Head"><app-items-grid></app-items-grid></mat-tab>
-    <mat-tab label="Face"><app-items-grid></app-items-grid></mat-tab>
-    <mat-tab label="Bottom"><app-items-grid></app-items-grid></mat-tab>
+  <mat-tab-group mat-align-tabs="Beards">
+    <mat-tab label="Beards">
+      <app-items-grid
+        [items]="avatarItemsService.getBeardItems()"
+        (selectItemEv)="avatarService.selectItem($event, ItemCategory.Beards)"
+      ></app-items-grid>
+    </mat-tab>
+    <mat-tab label="Face"><app-items-grid [items]="avatarItemsService.getBeardItems()"></app-items-grid></mat-tab>
+    <mat-tab label="Bottom"><app-items-grid [items]="avatarItemsService.getBeardItems()"></app-items-grid></mat-tab>
   </mat-tab-group>
 </div>

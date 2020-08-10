@@ -9,10 +9,11 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {ItemsGridComponent} from './items-grid/items-grid.component';
 import {CommonModule} from '@angular/common';
+import {MatRippleModule} from '@angular/material/core';
 
 @NgModule({
   declarations: [AppComponent, AvatarComponent, ActionButtonsComponent, ItemsGridComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, CommonModule, MatTabsModule, MatButtonModule],
+  imports: [BrowserModule, BrowserAnimationsModule, CommonModule, MatTabsModule, MatButtonModule, MatRippleModule],
   providers: [],
   bootstrap: [AppComponent],
 })

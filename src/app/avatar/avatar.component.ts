@@ -1,19 +1,24 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, Input, SimpleChanges, OnChanges} from '@angular/core';
 import * as d3 from 'd3';
-import * as svgHelper from 'save-svg-as-png';
+import {AvatarState} from '../avatar.service';
 
 @Component({
   selector: 'app-avatar',
   templateUrl: './avatar.component.html',
   styleUrls: ['./avatar.component.scss'],
 })
-export class AvatarComponent implements OnInit {
-  ngOnInit() {
+export class AvatarComponent implements OnChanges {
+  @Input() avatarState: AvatarState;
+
+  ngOnChanges(changes: SimpleChanges) {
+    console.log(this.avatarState);
+
     this.render();
   }
   render() {
-    const width = 300,
-      height = 300;
+    d3.select('#avatar').remove();
+    const width = 500,
+      height = 500;
     const svg = d3
       .select('#main')
       .append('svg')
@@ -27,12 +32,26 @@ export class AvatarComponent implements OnInit {
       .attr('height', '100%')
       .attr('fill', 'tomato')
       .attr('opacity', 0.1);
-    const amelia = g
+    const ameliaBox = svg
+      .append('g')
+      .attr('transform', 'translate(65,65)')
+
+    const amelia = ameliaBox
       .append('svg:image')
       .attr('xlink:href', 'assets/amelia.svg')
-      .attr('width', 200)
-      .attr('height', 200)
-      .attr('x', 50)
-      .attr('y', 50);
+      .attr('width', 370)
+      .attr('height', 370);
+
+    debugger;
+    if (this.avatarState.selectedItems && this.avatarState.selectedItems.BEARDS) {
+      const item = this.avatarState.selectedItems.BEARDS;
+      ameliaBox
+        .append('svg:image')
+        .attr('xlink:href', item.assetPath)
+        .attr('width', item.size.width)
+        .attr('height', item.size.height)
+        .attr('x', item.position.x)
+        .attr('y', item.position.y);
+    }
   }
 }

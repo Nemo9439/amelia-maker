@@ -1,3 +1,4 @@
+import {AvatarItemsService, ItemCategory, AvatarItem} from './avatar-items.service';
 import {Component} from '@angular/core';
 import {AvatarService} from './avatar.service';
 
@@ -8,5 +9,10 @@ import {AvatarService} from './avatar.service';
 })
 export class AppComponent {
   title = 'amelia-generator';
-  constructor(public avatarService: AvatarService) {}
+  ItemCategory = ItemCategory;
+  constructor(public avatarService: AvatarService, public avatarItemsService: AvatarItemsService) {}
+
+  onItemSelected(avaterItem: AvatarItem, category: ItemCategory) {
+    debugger
+  }
 }

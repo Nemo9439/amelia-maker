@@ -1,0 +1,21 @@
+.items {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 130px;
+  height: 130px;
+  border: 1px solid #ff9800;
+  border-radius: 5px;
+
+  background-position: center;
+  background-size: contain;
+  &:hover {
+    transition:0.3s;
+    background-color: rgba(255, 152, 0, 0.05);
+  }
+}
