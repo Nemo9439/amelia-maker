@@ -1,10 +1,13 @@
 <h1>Amelia Maker</h1>
 <div class="main-content">
-<div>
-  <app-avatar *ngIf="avatarService.isAvatarVisible"></app-avatar>
-  <app-action-buttons></app-action-buttons>
-</div>
+  <div>
+    <app-avatar *ngIf="avatarService.isAvatarVisible"></app-avatar>
+    <app-action-buttons></app-action-buttons>
+  </div>
 
-<app-items-menu></app-items-menu>
-
+  <mat-tab-group mat-align-tabs="Head">
+    <mat-tab label="Head"><app-items-grid></app-items-grid></mat-tab>
+    <mat-tab label="Face"><app-items-grid></app-items-grid></mat-tab>
+    <mat-tab label="Bottom"><app-items-grid></app-items-grid></mat-tab>
+  </mat-tab-group>
 </div>
