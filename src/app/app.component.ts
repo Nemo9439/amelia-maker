@@ -13,6 +13,6 @@ export class AppComponent {
   constructor(public avatarService: AvatarService, public avatarItemsService: AvatarItemsService) {}
 
   onItemSelected(avaterItem: AvatarItem, category: ItemCategory) {
-    debugger
+    
   }
 }

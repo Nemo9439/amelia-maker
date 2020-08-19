@@ -38,7 +38,6 @@ export const BEARD_ITEMS = [
 export class AvatarItemsService {
   constructor() {}
 
-  
   getBeardItems() {
     return BEARD_ITEMS;
   }
