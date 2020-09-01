@@ -1,14 +1,14 @@
 # AmeliaGenerator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
-Click here to see the latest version live : [Amelia-maker](https://nemo9439.github.io/amelia-maker/)
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+- Click here to see the latest version live : [Amelia-maker](https://nemo9439.github.io/amelia-maker/)
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-In order to deploy to production 
-  Run `ng build --prod --base-href`
-  Run `angular-cli-ghpages -d dist/amelia-generator/ --no-silent`
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- In order to deploy to production 
+  - Run `ng build --prod --base-href`
+  - Run `angular-cli-ghpages -d dist/amelia-generator/ --no-silent`
 
 
 ## Code scaffolding
