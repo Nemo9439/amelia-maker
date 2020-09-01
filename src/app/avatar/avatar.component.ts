@@ -34,7 +34,7 @@ export class AvatarComponent implements OnChanges {
       .attr('opacity', 0.1);
     const ameliaBox = svg
       .append('g')
-      .attr('transform', 'translate(65,65)')
+      .attr('transform', 'translate(65,65)');
 
     const amelia = ameliaBox
       .append('svg:image')
