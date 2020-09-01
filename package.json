@@ -40,6 +40,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/lodash": "^4.14.159",
     "@types/node": "~8.9.4",
+    "angular-cli-ghpages": "^0.6.2",
     "codelyzer": "~4.5.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
