@@ -39,8 +39,7 @@ export class AvatarService {
   }
 
   saveAsSvg() {
-    svgHelper.svgAsDataUri(d3.select('#avatar').node(), {}, function(uri) {
-    });
+    svgHelper.svgAsDataUri(d3.select('#avatar').node(), {}, function(uri) {});
   }
 
   selectItem(avaterItem: AvatarItem, category: ItemCategory) {
