@@ -1,7 +1,8 @@
 import {Injectable} from '@angular/core';
 import * as svgHelper from 'save-svg-as-png';
 import * as d3 from 'd3';
-import {ItemCategory, AvatarItem} from './avatar-items.service';
+import * as _ from 'lodash';
+import {ItemCategory, AvatarItem, HAIR_ITEMS, DECORATION_ITEMS} from './avatar-items.service';
 
 export interface AvatarState {
   selectedItems: {[key in ItemCategory]: AvatarItem};
@@ -13,7 +14,12 @@ export interface AvatarState {
 export class AvatarService {
   constructor() {}
 
-  avatarState = {selectedItems: {}};
+  avatarState = {
+    selectedItems: {
+      [ItemCategory.Hair]: _.first(HAIR_ITEMS),
+      [ItemCategory.Decoration]: _.first(DECORATION_ITEMS),
+    },
+  };
   isAvatarVisible = true;
 
   refreshAvatar = () => {
@@ -34,13 +40,12 @@ export class AvatarService {
 
   saveAsSvg() {
     svgHelper.svgAsDataUri(d3.select('#avatar').node(), {}, function(uri) {
-      console.log('uri', uri);
     });
   }
 
   selectItem(avaterItem: AvatarItem, category: ItemCategory) {
     this.avatarState = {
-      selectedItems: {...this.avatarState.selectedItems, ...{[category]: avaterItem}},
+      selectedItems: {...this.avatarState.selectedItems, [category]: avaterItem},
     };
   }
 }

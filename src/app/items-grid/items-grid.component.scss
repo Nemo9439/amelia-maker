@@ -11,11 +11,12 @@
   height: 130px;
   border: 1px solid #ff9800;
   border-radius: 5px;
-
+  background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+
   &:hover {
-    transition:0.3s;
+    transition: 0.3s;
     background-color: rgba(255, 152, 0, 0.05);
   }
 }

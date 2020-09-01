@@ -12,9 +12,7 @@ export class ItemsGridComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {
-    console.log(this.items);
-  }
+  ngOnInit() {}
 
   getImageUrl(item) {
     return {'background-image': `url(${item.assetPath})`};
