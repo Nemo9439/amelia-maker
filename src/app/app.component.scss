@@ -2,9 +2,15 @@ h1 {
   text-align: center;
 }
 
+.main-content {
+  justify-content: center;
+}
 
+.avatar-section {
+  margin-right: 150px;
+  margin-top: 70px;
+}
 
-
-// .avatar-section {}
-// .main-content {
-// }
+app-action-buttons {
+  padding: 20px 0;
+}
