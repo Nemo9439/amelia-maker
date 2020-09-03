@@ -16,18 +16,19 @@ export class AvatarComponent implements OnChanges {
     this.render();
   }
 
-  private drawSelectedItem(ameliaBox, item: AvatarItem) {
-    // const item = this.avatarState.selectedItems.BEARD;
-    return ameliaBox
-      .append('svg:image')
-      .attr('xlink:href', item.assetPath)
+  private async drawSelectedItem(ameliaBox, item: AvatarItem) {
+    const itemContainer = ameliaBox
+      .append('svg')
       .attr('width', item.size.width)
       .attr('height', item.size.height)
       .attr('x', item.position.x)
       .attr('y', item.position.y);
+
+    const data = await d3.svg(item.assetPath);
+    itemContainer.node().append(data.documentElement);
   }
 
-  render() {
+  async render() {
     d3.select('#avatar').remove();
     const width = 500,
       height = 500;
@@ -46,11 +47,13 @@ export class AvatarComponent implements OnChanges {
       .attr('opacity', 0.1);
     const ameliaBox = svg.append('g').attr('transform', 'translate(65,65)');
 
-    const amelia = ameliaBox
-      .append('svg:image')
-      .attr('xlink:href', 'assets/base-amelia.svg')
+    const ameliaContainer = ameliaBox
+      .append('svg')
       .attr('width', 370)
       .attr('height', 370);
+
+    const data = await d3.svg('assets/base-amelia.svg');
+    ameliaContainer.node().append(data.documentElement);
 
     if (!this.avatarState.selectedItems) {
       return;
