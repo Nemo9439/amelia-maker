@@ -24,16 +24,16 @@ export enum ItemCategory {
 }
 
 export const BEARD_ITEMS = [
-  {name: 'b1', assetPath: 'assets/beards/b1.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  {name: 'b2', assetPath: 'assets/beards/b2.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  {name: 'b3', assetPath: 'assets/beards/b3.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  {name: 'b4', assetPath: 'assets/beards/b4.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  {name: 'b5', assetPath: 'assets/beards/b5.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  {name: 'b6', assetPath: 'assets/beards/b6.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  {name: 'b7', assetPath: 'assets/beards/b7.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  {name: 'b8', assetPath: 'assets/beards/b8.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  {name: 'b9', assetPath: 'assets/beards/b9.svg', position: {x: 25, y: 140}, size: {width: 320, height: 280}},
-  { name: 'none', assetPath: '', position: { x: 35, y: 25 }, size: { width: 295, height: 240 } },
+  {name: 'b1', assetPath: 'assets/beards/b1.svg', position: {x: 0, y: 140}, size: {width: 370, height: 280}},
+  {name: 'b2', assetPath: 'assets/beards/b2.svg', position: {x: -10, y: 150}, size: {width: 385, height: 293}},
+  {name: 'b3', assetPath: 'assets/beards/b3.svg', position: {x: 25, y: 140}, size: {width: 315, height: 280}},
+  {name: 'b4', assetPath: 'assets/beards/b4.svg', position: {x: 63, y: 140}, size: {width: 250, height: 280}},
+  {name: 'b5', assetPath: 'assets/beards/b5.svg', position: {x: 20, y: 140}, size: {width: 320, height: 335}},
+  {name: 'b6', assetPath: 'assets/beards/b6.svg', position: {x: 25, y: 145}, size: {width: 320, height: 280}},
+  {name: 'b7', assetPath: 'assets/beards/b7.svg', position: {x: 22, y: 190}, size: {width: 320, height: 280}},
+  {name: 'b8', assetPath: 'assets/beards/b8.svg', position: {x: 22, y: 150}, size: {width: 320, height: 300}},
+  {name: 'b9', assetPath: 'assets/beards/b9.svg', position: {x: 20, y: 170}, size: {width: 320, height: 300}},
+  {name: 'none', assetPath: '', position: {x: 35, y: 25}, size: {width: 295, height: 240}},
 ];
 
 export const HAIR_ITEMS = [
@@ -87,7 +87,7 @@ export const DECORATION_ITEMS = [
     position: {x: 25, y: 80},
     size: {width: 320, height: 280},
   },
-  { name: 'none', assetPath: '', position: { x: 35, y: 25 }, size: { width: 295, height: 240 } },
+  {name: 'none', assetPath: '', position: {x: 35, y: 25}, size: {width: 295, height: 240}},
 ];
 
 @Injectable({
