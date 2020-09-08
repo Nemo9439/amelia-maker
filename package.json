@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href",
-    "deploy": "angular-cli-ghpages -d dist/amelia-generator/ --no-silent",
+    "build": "ng build",
+    "deploy": "ng build --prod --base-href && angular-cli-ghpages -d dist/amelia-generator/ --no-silent",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
