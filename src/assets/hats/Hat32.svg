@@ -1,32 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 275.7 248" style="enable-background:new 0 0 275.7 248;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#AA5507;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:#EC5F15;}
-</style>
+	 viewBox="0 0 273.3333 236.6667" enable-background="new 0 0 273.3333 236.6667" xml:space="preserve">
 <g id="XMLID_15210_">
-	<path id="XMLID_15225_" class="st0" d="M141,137.8c61.1,0,109.6,34.9,121.2,94.1c-3.6-73.2-54.6-117.4-121.2-117.4
-		c-66.7,0-117.6,44.3-121.2,117.4C31.3,172.6,79.8,137.8,141,137.8z"/>
+	<path id="XMLID_15225_" fill="#AA5507" d="M135.9548,131.0183c61.1242,0,109.6263,34.8933,121.2062,94.1188
+		c-3.5549-73.1548-54.5528-117.4229-121.2062-117.4229c-66.6518,0-117.6493,44.2669-121.2046,117.4217
+		C26.3305,165.9104,74.8322,131.0183,135.9548,131.0183z"/>
 	<g id="XMLID_15212_">
-		<circle id="XMLID_15224_" class="st0" cx="179.9" cy="61.9" r="39.7"/>
+		<circle id="XMLID_15224_" fill="#AA5507" cx="174.9039" cy="55.1441" r="39.7188"/>
 		<g id="XMLID_15218_">
-			<circle id="XMLID_15223_" class="st0" cx="98.3" cy="60.6" r="44.3"/>
-			<circle id="XMLID_15222_" class="st1" cx="102.1" cy="56.8" r="32.7"/>
-			<circle id="XMLID_15221_" class="st2" cx="110.6" cy="56.1" r="20"/>
-			<circle id="XMLID_15220_" cx="110.6" cy="56.1" r="10.7"/>
-			<circle id="XMLID_15219_" class="st1" cx="104.8" cy="65.6" r="3.2"/>
+			<circle id="XMLID_15223_" fill="#AA5507" cx="93.2758" cy="53.8748" r="44.3162"/>
+			<circle id="XMLID_15222_" fill="#FFFFFF" cx="97.1124" cy="50.0381" r="32.7218"/>
+			<circle id="XMLID_15221_" fill="#EC5F15" cx="105.6053" cy="49.3477" r="20.0122"/>
+			<circle id="XMLID_15220_" cx="105.6054" cy="49.3477" r="10.6686"/>
+			<circle id="XMLID_15219_" fill="#FFFFFF" cx="99.8138" cy="58.8724" r="3.1913"/>
 		</g>
 		<g id="XMLID_15213_">
-			<circle id="XMLID_15217_" class="st1" cx="174.4" cy="56.8" r="28.5"/>
-			<circle id="XMLID_15216_" class="st2" cx="167" cy="56.2" r="17.4"/>
-			<circle id="XMLID_15215_" cx="167" cy="56.2" r="9.3"/>
-			<circle id="XMLID_15214_" class="st1" cx="162" cy="64.5" r="2.8"/>
+			<circle id="XMLID_15217_" fill="#FFFFFF" cx="169.4446" cy="50.0377" r="28.5051"/>
+			<circle id="XMLID_15216_" fill="#EC5F15" cx="162.0464" cy="49.4366" r="17.4335"/>
+			<circle id="XMLID_15215_" cx="162.0462" cy="49.4366" r="9.2935"/>
+			<circle id="XMLID_15214_" fill="#FFFFFF" cx="157.0012" cy="57.7341" r="2.78"/>
 		</g>
 	</g>
-	<polygon id="XMLID_15211_" class="st0" points="104.9,101.6 113.9,125.8 168.2,125.8 183,95.7 165.3,90.4 156.1,121 123.2,121 
-		120,95.2 	"/>
+	<polygon id="XMLID_15211_" fill="#AA5507" points="99.8532,94.6505 108.9094,118.6667 163.1696,118.6667 178.03,88.7671 
+		160.3225,83.2077 151.092,113.6667 118.192,113.6667 115.0223,88.023 	"/>
 </g>
 </svg>
