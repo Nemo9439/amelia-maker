@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import * as svgHelper from 'save-svg-as-png';
 import * as d3 from 'd3';
 import * as _ from 'lodash';
-import {ItemCategory, AvatarItem, HAIR_ITEMS, DECORATION_ITEMS} from './avatar-items.service';
+import { ItemCategory, AvatarItem, HAIR_ITEMS, GLASS_ITEMS } from './avatar-items.service';
 
 export interface AvatarState {
   selectedItems: {[key in ItemCategory]: AvatarItem};
@@ -17,7 +17,7 @@ export class AvatarService {
   avatarState = {
     selectedItems: {
       [ItemCategory.Hair]: _.first(HAIR_ITEMS),
-      [ItemCategory.Decoration]: _.first(DECORATION_ITEMS),
+      [ItemCategory.Glass]: _.first(GLASS_ITEMS),
     },
   };
   isAvatarVisible = true;

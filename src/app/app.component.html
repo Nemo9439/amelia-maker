@@ -8,21 +8,27 @@
   <mat-tab-group mat-align-tabs="Beards">
     <mat-tab label="Beards">
       <app-items-grid
-        [items]="avatarItemsService.getBeardItems()"
+        [items]="BEARD_ITEMS"
         (selectItemEv)="avatarService.selectItem($event, ItemCategory.Beard)"
       ></app-items-grid>
     </mat-tab>
     <mat-tab label="Hairs"
       ><app-items-grid
-        [items]="avatarItemsService.getHairItems()"
+        [items]="HAIR_ITEMS"
         (selectItemEv)="avatarService.selectItem($event, ItemCategory.Hair)"
       ></app-items-grid
     ></mat-tab>
-    <mat-tab label="Decorations"
+    <mat-tab label="Glasses"
       ><app-items-grid
-        [items]="avatarItemsService.getDecorationItems()"
-        (selectItemEv)="avatarService.selectItem($event, ItemCategory.Decoration)"
+        [items]="GLASS_ITEMS"
+        (selectItemEv)="avatarService.selectItem($event, ItemCategory.Glass)"
       ></app-items-grid
     ></mat-tab>
+    <mat-tab label="Hats">
+      <app-items-grid
+        [items]="HAT_ITEMS"
+        (selectItemEv)="avatarService.selectItem($event, ItemCategory.Hat)"
+      ></app-items-grid>
+    </mat-tab>
   </mat-tab-group>
 </div>

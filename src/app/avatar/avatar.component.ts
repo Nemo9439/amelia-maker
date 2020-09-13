@@ -39,12 +39,13 @@ export class AvatarComponent implements OnChanges {
       .attr('width', width)
       .attr('height', height);
     const g = svg.append('g');
-    const bg = g
-      .append('rect')
-      .attr('width', '100%')
-      .attr('height', '100%')
-      .attr('fill', 'tomato')
-      .attr('opacity', 0.1);
+    // const bg = g
+    //   .append('rect')
+    //   .attr('width', '100%')
+    //   .attr('height', '100%')
+    //   .attr('fill', 'tomato')
+    //   .attr('opacity', 0.1);
+    
     const ameliaBox = svg.append('g').attr('transform', 'translate(65,65)');
 
     const ameliaContainer = ameliaBox
