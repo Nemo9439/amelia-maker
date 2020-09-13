@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="61 229 237 124" style="enable-background:new 61 229 237 124;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#DADADA;}
-	.st1{fill:#1D71B8;}
-</style>
-<g id="XMLID_7037_">
-	<path id="XMLID_7039_" class="st0" d="M280.5,324.2c-13.2-45.2-52.7-77.9-99.2-77.7c-46.5,0.2-85.7,33.2-98.6,78.4L280.5,324.2z"/>
-	
-		<rect id="XMLID_7038_" x="82.7" y="324.6" transform="matrix(1 -3.660640e-003 3.660640e-003 1 -1.1971 0.667)" class="st1" width="197.8" height="5.5"/>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 237.3333 141.3333" enable-background="new 0 0 237.3333 141.3333" xml:space="preserve">
+<g id="XMLID_248_">
+	<path id="XMLID_250_" fill="#DADADA" d="M219.039,92.0156c-13.2377-24.0561-52.6917-41.4715-99.1847-41.3808
+		S34.1477,68.2942,21.2409,92.4013L219.039,92.0156z"/>
+	<polygon id="XMLID_249_" fill="#1D71B8" points="219.059,94.933 21.261,95.3187 21.2409,92.4013 219.039,92.0156 	"/>
 </g>
 </svg>
