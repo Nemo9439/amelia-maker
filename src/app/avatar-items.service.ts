@@ -21,6 +21,7 @@ export enum ItemCategory {
   Beard = 'BEARD',
   Hair = 'HAIR',
   Glass = 'GLASS',
+  Hat = 'HAT',
 }
 
 export const addNamesToItems = (items: Partial<AvatarItem>[]): AvatarItem[] => {
