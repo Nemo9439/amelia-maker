@@ -442,7 +442,7 @@ export const GLASS_ITEMS = addNamesToItems([
 
 export const HAT_ITEMS = addNamesToItems([
   {assetPath: 'assets/hats/Hat1.svg', position: {x: -100, y: -140}, size: {width: 577, height: 598}},
-  {assetPath: 'assets/hats/Hat2.svg', position: {x: 0, y: -130}, size: {width: 300, height: 363}},
+  {assetPath: 'assets/hats/Hat2.svg', position: {x: -10, y: -157}, size: {width: 320, height: 363}},
   {
     assetPath: 'assets/hats/Hat3.svg',
     position: {x: 65, y: -74},
@@ -455,8 +455,8 @@ export const HAT_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/hats/Hat5.svg',
-    position: {x: -32, y: -160},
-    size: {width: 433, height: 409},
+    position: {x: -133, y: -220},
+    size: {width: 639, height: 409},
   },
   {
     assetPath: 'assets/hats/Hat6.svg',
@@ -465,13 +465,13 @@ export const HAT_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/hats/Hat7.svg',
-    position: {x: 20, y: -120},
+    position: {x: 20, y: -130},
     size: {width: 400, height: 328},
   },
   {
     assetPath: 'assets/hats/Hat8.svg',
-    position: {x: 5, y: -120},
-    size: {width: 360, height: 328},
+    position: {x: -60, y: -190},
+    size: {width: 504, height: 328},
   },
   {
     assetPath: 'assets/hats/Hat9.svg',
@@ -480,28 +480,28 @@ export const HAT_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/hats/Hat10.svg',
-    position: {x: 40, y: -70},
-    size: {width: 392, height: 323},
+    position: {x: 50, y: -90},
+    size: {width: 400, height: 323},
   },
   {
     assetPath: 'assets/hats/Hat11.svg',
-    position: {x: 150, y: -165},
-    size: {width: 200, height: 360},
+    position: {x: 110, y: -180},
+    size: {width: 260, height: 360},
   },
   {
     assetPath: 'assets/hats/Hat12.svg',
-    position: {x: 40, y: -140},
-    size: {width: 297, height: 285},
+    position: {x: -20, y: -135},
+    size: {width: 400, height: 285},
   },
   {
     assetPath: 'assets/hats/Hat13.svg',
-    position: {x: 20, y: -110},
-    size: {width: 200, height: 285},
+    position: {x: -20, y: -150},
+    size: {width: 260, height: 285},
   },
   {
     assetPath: 'assets/hats/Hat14.svg',
-    position: {x: 35, y: -70},
-    size: {width: 300, height: 285},
+    position: {x: -30, y: -90},
+    size: {width: 436, height: 285},
   },
   {
     name: 'hair15',
@@ -511,23 +511,23 @@ export const HAT_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/hats/Hat16.svg',
-    position: {x: 40, y: -100},
-    size: {width: 280, height: 316},
+    position: {x: -10, y: -125},
+    size: {width: 390, height: 316},
   },
   {
     assetPath: 'assets/hats/Hat17.svg',
-    position: {x: 53, y: -170},
-    size: {width: 265, height: 348},
+    position: {x: -13, y: -180},
+    size: {width: 400, height: 348},
   },
   {
     assetPath: 'assets/hats/Hat18.svg',
-    position: {x: 55, y: -140},
-    size: {width: 250, height: 348},
+    position: {x: -22, y: -160},
+    size: {width: 416, height: 348},
   },
   {
     assetPath: 'assets/hats/Hat19.svg',
-    position: {x: 55, y: -150},
-    size: {width: 250, height: 348},
+    position: {x: -20, y: -160},
+    size: {width: 416, height: 348},
   },
   {
     assetPath: 'assets/hats/Hat20.svg',
@@ -536,8 +536,8 @@ export const HAT_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/hats/Hat21.svg',
-    position: {x: 60, y: -105},
-    size: {width: 250, height: 248},
+    position: {x: 35, y: -130},
+    size: {width: 300, height: 248},
   },
   {
     assetPath: 'assets/hats/Hat22.svg',
@@ -616,31 +616,31 @@ export const HAT_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/hats/Hat37.svg',
-    position: {x: -15, y: -100},
-    size: {width: 220, height: 240},
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
   },
   {
     assetPath: 'assets/hats/Hat38.svg',
-    position: {x: -15, y: -100},
-    size: {width: 220, height: 240},
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
   },
   {
     assetPath: 'assets/hats/Hat39.svg',
-    position: {x: -15, y: -100},
-    size: {width: 220, height: 240},
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
   },
   {
     assetPath: 'assets/hats/Hat40.svg',
-    position: {x: -15, y: -100},
-    size: {width: 220, height: 240},
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
   },
   {
     assetPath: 'assets/hats/Hat41.svg',
-    position: {x: -15, y: -100},
-    size: {width: 220, height: 240},
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
   },
+  NONE_ITEM,
 ]);
-
 @Injectable({
   providedIn: 'root',
 })
