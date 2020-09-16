@@ -19,6 +19,8 @@ export class ActionButtonsComponent implements OnInit {
 
   reset() {
     this.googleAnalyticsService.dispatchEvent('actionButtons', 'reset');
+    this.avatarService.resetAvatar();
+    this.avatarService.refreshAvatar();
   }
 
   random() {

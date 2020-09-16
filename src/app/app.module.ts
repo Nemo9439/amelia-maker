@@ -10,11 +10,12 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {ItemsGridComponent} from './items-grid/items-grid.component';
 import {CommonModule} from '@angular/common';
 import {MatRippleModule} from '@angular/material/core';
+import {GoogleAnalyticsService} from './google-analytics.service';
 
 @NgModule({
   declarations: [AppComponent, AvatarComponent, ActionButtonsComponent, ItemsGridComponent],
   imports: [BrowserModule, BrowserAnimationsModule, CommonModule, MatTabsModule, MatButtonModule, MatRippleModule],
-  providers: [],
+  providers: [GoogleAnalyticsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

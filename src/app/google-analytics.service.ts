@@ -6,8 +6,8 @@ declare let ga: Function; // Declare ga as a function
 })
 export class GoogleAnalyticsService {
   constructor() {}
-  
-  public dispatchEvent(eventCategory: string, eventAction: string, eventValue?: number, eventLabel?: string) {
+
+  dispatchEvent(eventCategory: string, eventAction: string, eventValue: number = null, eventLabel: string = null) {
     ga('send', 'event', {
       eventCategory: eventCategory,
       eventAction: eventAction,
