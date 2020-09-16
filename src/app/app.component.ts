@@ -5,7 +5,9 @@ import {
   BEARD_ITEMS,
   GLASS_ITEMS,
   HAT_ITEMS,
-  HAIR_ITEMS,, HEADPHONE_ITEMS, TIE_ITEMS
+  HAIR_ITEMS,
+  HEADPHONE_ITEMS,
+  TIE_ITEMS,
 } from './avatar-items.service';
 import {Component} from '@angular/core';
 import {AvatarService} from './avatar.service';
@@ -25,7 +27,6 @@ export class AppComponent {
   HAT_ITEMS = HAT_ITEMS;
   HEADPHONE_ITEMS = HEADPHONE_ITEMS;
   TIE_ITEMS = TIE_ITEMS;
-  constructor(public avatarService: AvatarService, public avatarItemsService: AvatarItemsService) {}
 
-  onItemSelected(avaterItem: AvatarItem, category: ItemCategory) {}
+  constructor(public avatarService: AvatarService) {}
 }

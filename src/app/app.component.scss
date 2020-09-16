@@ -4,12 +4,17 @@ h1 {
 }
 
 .main-content {
-  justify-content: center;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 
 .avatar-section {
-  margin-right: 150px;
+  margin-right: 50px;
   margin-top: 70px;
+}
+
+.items-gallery {
+  max-width: calc(100vw - 600px);
 }
 
 app-action-buttons {
