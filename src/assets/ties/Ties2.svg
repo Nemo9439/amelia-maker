@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 162.8 99.3" style="enable-background:new 0 0 162.8 99.3;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;stroke:#EF7B05;stroke-width:4;stroke-miterlimit:10;}
-</style>
+	 viewBox="0 0 287.8378 160.1351" enable-background="new 0 0 287.8378 160.1351" xml:space="preserve">
 <g id="XMLID_277_">
-	<path id="XMLID_281_" class="st0" d="M96,50c0,5-5.6,9.1-12.5,9.1l0,0c-6.9,0-12.6-4.1-12.6-9.1v-7.4c0-5,5.6-9.1,12.6-9.1l0,0
-		c6.9,0,12.5,4.1,12.5,9.1V50z"/>
+	
+		<path id="XMLID_281_" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#EF7B05" stroke-width="4" stroke-miterlimit="10" d="
+		M155.6999,77.4201c0,5.045-5.6184,9.136-12.5499,9.136l0,0c-6.9315,0-12.5505-4.091-12.5505-9.136v-7.3613
+		c0-5.0462,5.619-9.1383,12.5505-9.1383l0,0c6.9315,0,12.5499,4.0921,12.5499,9.1383V77.4201z"/>
 	<g id="XMLID_278_">
-		<path id="XMLID_280_" class="st0" d="M76.3,38.4c0,0-28.9-23.4-56.2-16.1c0,0-8.7,28,3.8,56c0,0,28.6,4.6,52.4-20.6V38.4z"/>
-		<path id="XMLID_279_" class="st0" d="M90.5,38.4c0,0,28.9-23.4,56.2-16.1c0,0,8.7,28-3.8,56c0,0-28.6,4.6-52.4-20.6V38.4z"/>
+		
+			<path id="XMLID_280_" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#EF7B05" stroke-width="4" stroke-miterlimit="10" d="
+			M136.0794,65.7604c0,0-28.9075-23.3957-56.18-16.055c0,0-8.7268,27.9825,3.8186,55.9657c0,0,28.6351,4.5868,52.3614-20.6436
+			V65.7604z"/>
+		
+			<path id="XMLID_279_" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#EF7B05" stroke-width="4" stroke-miterlimit="10" d="
+			M150.22,65.7604c0,0,28.9087-23.3957,56.18-16.055c0,0,8.7274,27.9825-3.818,55.9651c0,0-28.6352,4.5868-52.362-20.6435V65.7604z"
+			/>
 	</g>
 </g>
 </svg>

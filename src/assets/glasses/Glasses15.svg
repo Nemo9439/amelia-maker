@@ -2,32 +2,32 @@
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="-343 228 273 106" enable-background="new -343 228 273 106" xml:space="preserve">
-<linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="-275.5998" y1="317.5749" x2="-259.5998" y2="261.5749" gradientTransform="matrix(1 0 0 -1 0 564)">
+<linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="-275.5998" y1="241.4251" x2="-259.5998" y2="297.4251" gradientTransform="matrix(1 0 0 1 0 4)">
 	<stop  offset="0" style="stop-color:#666666"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="-316.6844" y1="277.953" x2="-215.08" y2="277.953" gradientTransform="matrix(1 0 0 -1 0 564)">
+<linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="-316.6844" y1="281.047" x2="-215.08" y2="281.047" gradientTransform="matrix(1 0 0 1 0 4)">
 	<stop  offset="0" style="stop-color:#666666"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<path id="XMLID_917_" fill="url(#XMLID_2_)" stroke="url(#XMLID_3_)" stroke-miterlimit="10" d="M-306.6,261.1
-	c26.8-13.4,75.8,2.2,85.5,11.7c18.2,18.2-11.7,43.4-44.6,43.4S-333.5,274.4-306.6,261.1z"/>
-<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="-179.6681" y1="322.3347" x2="-130.1681" y2="257.8347" gradientTransform="matrix(1 0 0 -1 0 564)">
+<path id="XMLID_917_" fill="url(#XMLID_2_)" stroke="url(#XMLID_3_)" stroke-miterlimit="10" d="M-306.6,260.1
+	c26.8-13.4,75.8,2.2,85.5,11.7c18.2,18.2-11.7,43.4-44.6,43.4S-333.5,273.4-306.6,260.1z"/>
+<linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="-179.6681" y1="236.6653" x2="-130.168" y2="301.1653" gradientTransform="matrix(1 0 0 1 0 4)">
 	<stop  offset="0" style="stop-color:#666666"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="-200.6201" y1="277.953" x2="-99.0578" y2="277.953" gradientTransform="matrix(1 0 0 -1 0 564)">
+<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="-200.6201" y1="281.047" x2="-99.0578" y2="281.047" gradientTransform="matrix(1 0 0 1 0 4)">
 	<stop  offset="0" style="stop-color:#666666"/>
 	<stop  offset="1" style="stop-color:#000000"/>
 </linearGradient>
-<path id="XMLID_916_" fill="url(#XMLID_4_)" stroke="url(#XMLID_5_)" stroke-miterlimit="10" d="M-109.1,261.1
-	c-26.8-13.4-75.8,2.2-85.5,11.7c-18.2,18.2,11.7,43.4,44.6,43.4S-82.3,274.4-109.1,261.1z"/>
-<path id="XMLID_915_" fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M-220.5,281.5c0,0,13.3-8.2,26.5,0"
+<path id="XMLID_916_" fill="url(#XMLID_4_)" stroke="url(#XMLID_5_)" stroke-miterlimit="10" d="M-109.1,260.1
+	c-26.8-13.4-75.8,2.2-85.5,11.7c-18.2,18.2,11.7,43.4,44.6,43.4S-82.3,273.4-109.1,260.1z"/>
+<path id="XMLID_915_" fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" d="M-220.5,280.5c0,0,13.3-8.2,26.5,0"
 	/>
-<line id="XMLID_914_" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="-103.5" y1="278" x2="-88.5" y2="278"/>
-<line id="XMLID_913_" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="-313.5" y1="279" x2="-324.5" y2="279"/>
-<ellipse id="XMLID_912_" transform="matrix(0.5907 -0.8069 0.8069 0.5907 -306.0623 -40.5283)" cx="-192.9795" cy="281.4184" rx="3.7" ry="1.9"/>
-<ellipse id="XMLID_911_" transform="matrix(0.4534 0.8913 -0.8913 0.4534 130.5777 349.9566)" cx="-220.0386" cy="281.4412" rx="3.7" ry="1.9"/>
-<ellipse id="XMLID_910_" cx="-104.6" cy="277.5" rx="1.3" ry="2.4"/>
-<ellipse id="XMLID_621_" cx="-312.6" cy="278.5" rx="1.3" ry="2.4"/>
+<line id="XMLID_914_" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="-103.5" y1="277" x2="-88.5" y2="277"/>
+<line id="XMLID_913_" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="-313.5" y1="278" x2="-333.5" y2="278"/>
+<ellipse id="XMLID_912_" transform="matrix(-0.8069 -0.5907 0.5907 -0.8069 -514.3356 392.6989)" cx="-192.9788" cy="280.4207" rx="1.9" ry="3.7"/>
+<ellipse id="XMLID_911_" transform="matrix(0.8913 -0.4534 0.4534 0.8913 -151.0697 -69.2827)" cx="-220.0363" cy="280.4416" rx="1.9" ry="3.7"/>
+<ellipse id="XMLID_910_" cx="-104.6" cy="276.5" rx="1.3" ry="2.4"/>
+<ellipse id="XMLID_621_" cx="-312.6" cy="277.5" rx="1.3" ry="2.4"/>
 </svg>

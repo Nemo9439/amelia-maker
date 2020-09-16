@@ -1,5 +1,6 @@
 import {Injectable} from '@angular/core';
 import * as _ from 'lodash';
+
 export interface Position {
   x: number;
   y: number;
@@ -22,6 +23,8 @@ export enum ItemCategory {
   Hair = 'HAIR',
   Glass = 'GLASS',
   Hat = 'HAT',
+  Headphone = 'HEADPHONE',
+  Tie = 'TIE',
 }
 
 export const NONE_ITEM = {name: 'none', assetPath: '', position: {x: 0, y: 0}, size: {width: 0, height: 0}};
@@ -44,10 +47,8 @@ export const BEARD_ITEMS = addNamesToItems([
   {assetPath: 'assets/beards/Beards4.svg', position: {x: 50, y: 200}, size: {width: 272, height: 164}},
   {assetPath: 'assets/beards/Beards5.svg', position: {x: 40, y: 165}, size: {width: 291, height: 204}},
   {assetPath: 'assets/beards/Beards6.svg', position: {x: 13, y: 155}, size: {width: 332, height: 300}},
-  {assetPath: 'assets/beards/Beards7.svg', position: {x: 32, y: 150}, size: {width: 320, height: 280}},
   {assetPath: 'assets/beards/Beards8.svg', position: {x: 22, y: 135}, size: {width: 320, height: 300}},
   {assetPath: 'assets/beards/Beards9.svg', position: {x: 40, y: 170}, size: {width: 283, height: 300}},
-  {assetPath: 'assets/beards/Beards9.svg', position: {x: 20, y: 170}, size: {width: 320, height: 300}},
   {assetPath: 'assets/beards/Beards10.svg', position: {x: 16, y: 140}, size: {width: 335, height: 300}},
   {assetPath: 'assets/beards/Beards11.svg', position: {x: 75, y: 170}, size: {width: 205, height: 300}},
   {assetPath: 'assets/beards/Beards12.svg', position: {x: 25, y: 135}, size: {width: 322, height: 279}},
@@ -63,7 +64,6 @@ export const BEARD_ITEMS = addNamesToItems([
   {assetPath: 'assets/beards/Beards22.svg', position: {x: 122, y: 286}, size: {width: 130, height: 89}},
   {assetPath: 'assets/beards/Beards23.svg', position: {x: 130, y: 270}, size: {width: 119, height: 87}},
   {assetPath: 'assets/beards/Beards24.svg', position: {x: 100, y: 170}, size: {width: 280, height: 168}},
-  {assetPath: 'assets/beards/Beards25.svg', position: {x: 20, y: 170}, size: {width: 320, height: 300}},
   NONE_ITEM,
 ]);
 
@@ -71,7 +71,6 @@ export const HAIR_ITEMS = addNamesToItems([
   {name: 'hair0', assetPath: 'assets/hairs/Hair0.svg', position: {x: 35, y: 25}, size: {width: 300, height: 240}},
   {name: 'hair1', assetPath: 'assets/hairs/Hair1.svg', position: {x: -35, y: -70}, size: {width: 430, height: 390}},
   {name: 'hair2', assetPath: 'assets/hairs/Hair2.svg', position: {x: 35, y: 10}, size: {width: 300, height: 280}},
-  {name: 'hair3', assetPath: 'assets/hairs/Hair3.svg', position: {x: -60, y: -30}, size: {width: 600, height: 550}},
   {name: 'hair4', assetPath: 'assets/hairs/Hair4.svg', position: {x: -97, y: 13}, size: {width: 450, height: 400}},
   {name: 'hair5', assetPath: 'assets/hairs/Hair5.svg', position: {x: 42, y: -90}, size: {width: 517, height: 409}},
   {name: 'hair6', assetPath: 'assets/hairs/Hair6.svg', position: {x: -100, y: -80}, size: {width: 550, height: 550}},
@@ -105,7 +104,6 @@ export const HAIR_ITEMS = addNamesToItems([
   {name: 'hair34', assetPath: 'assets/hairs/Hair34.svg', position: {x: 20, y: -20}, size: {width: 331, height: 314}},
   {name: 'hair35', assetPath: 'assets/hairs/Hair35.svg', position: {x: -20, y: -50}, size: {width: 430, height: 356}},
   {name: 'hair36', assetPath: 'assets/hairs/Hair36.svg', position: {x: 20, y: -50}, size: {width: 400, height: 370}},
-  {name: 'hair37', assetPath: 'assets/hairs/Hair37.svg', position: {x: 0, y: -100}, size: {width: 370, height: 420}},
   {name: 'hair38', assetPath: 'assets/hairs/Hair38.svg', position: {x: 10, y: -90}, size: {width: 370, height: 420}},
   {name: 'hair39', assetPath: 'assets/hairs/Hair39.svg', position: {x: -90, y: -40}, size: {width: 550, height: 573}},
   {name: 'hair40', assetPath: 'assets/hairs/Hair40.svg', position: {x: 0, y: -100}, size: {width: 370, height: 420}},
@@ -641,21 +639,39 @@ export const HAT_ITEMS = addNamesToItems([
   },
   NONE_ITEM,
 ]);
+
+export const HEADPHONE_ITEMS = addNamesToItems([
+  {assetPath: 'assets/headphones/Headphones1.svg', position: {x: 0, y: 140}, size: {width: 370, height: 280}},
+  {
+    assetPath: 'assets/headphones/Headphones2.svg',
+    position: {x: 11, y: 151},
+    size: {width: 345, height: 353},
+  },
+  {assetPath: 'assets/headphones/Headphones3.svg', position: {x: 5, y: 105}, size: {width: 374, height: 328}},
+  {assetPath: 'assets/headphones/Headphones4.svg', position: {x: 50, y: 200}, size: {width: 272, height: 164}},
+  {assetPath: 'assets/headphones/Headphones5.svg', position: {x: 40, y: 165}, size: {width: 291, height: 204}},
+  {assetPath: 'assets/headphones/Headphones6.svg', position: {x: 13, y: 155}, size: {width: 332, height: 300}},
+  {assetPath: 'assets/headphones/Headphones8.svg', position: {x: 22, y: 135}, size: {width: 320, height: 300}},
+  {assetPath: 'assets/headphones/Headphones9.svg', position: {x: 40, y: 170}, size: {width: 283, height: 300}},
+  {assetPath: 'assets/headphones/Headphones10.svg', position: {x: 16, y: 140}, size: {width: 335, height: 300}},
+  NONE_ITEM,
+]);
+
+export const TIE_ITEMS = addNamesToItems([
+  {assetPath: 'assets/ties/Ties1.svg', position: {x: 0, y: 140}, size: {width: 370, height: 280}},
+  {
+    assetPath: 'assets/ties/Ties2.svg',
+    position: {x: 11, y: 151},
+    size: {width: 345, height: 353},
+  },
+  {assetPath: 'assets/ties/Ties3.svg', position: {x: 5, y: 105}, size: {width: 374, height: 328}},
+  {assetPath: 'assets/ties/Ties4.svg', position: {x: 50, y: 200}, size: {width: 272, height: 164}},
+  NONE_ITEM,
+]);
+
 @Injectable({
   providedIn: 'root',
 })
 export class AvatarItemsService {
   constructor() {}
-
-  getBeardItems() {
-    return BEARD_ITEMS;
-  }
-
-  getHairItems() {
-    return HAIR_ITEMS;
-  }
-
-  getGlasses() {
-    return GLASS_ITEMS;
-  }
 }

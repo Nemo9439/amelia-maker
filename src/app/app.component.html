@@ -30,5 +30,17 @@
         (selectItemEv)="avatarService.selectItem($event, ItemCategory.Hat)"
       ></app-items-grid>
     </mat-tab>
+    <mat-tab label="Headphones">
+      <app-items-grid
+        [items]="HEADPHONE_ITEMS"
+        (selectItemEv)="avatarService.selectItem($event, ItemCategory.Headphone)"
+      ></app-items-grid>
+    </mat-tab>
+    <mat-tab label="Ties">
+      <app-items-grid
+        [items]="TIE_ITEMS"
+        (selectItemEv)="avatarService.selectItem($event, ItemCategory.Tie)"
+      ></app-items-grid>
+    </mat-tab>
   </mat-tab-group>
 </div>

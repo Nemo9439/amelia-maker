@@ -5,30 +5,31 @@
 <g id="XMLID_79_">
 	<g id="XMLID_83_">
 		<g id="XMLID_86_">
-			<polygon id="XMLID_102_" fill="#1D1D1B" points="-114.7,258.6 -114.7,267.1 -114.7,275.6 -123.2,275.6 -123.2,284.1 
-				-130.9,284.1 -131.7,284.1 -131.7,292.6 -140.2,292.6 -140.2,301.1 -147.4,301.1 -148.7,301.1 -203.5,301.1 -203.5,292.6 
-				-204.2,292.6 -212,292.6 -212,284.1 -220.5,284.1 -220.5,275.6 -220.5,267.1 -238.6,267.1 -238.6,275.6 -238.6,284.1 
-				-245.7,284.1 -247.1,284.1 -247.1,292.6 -255.6,292.6 -255.6,301.1 -262.5,301.1 -264.1,301.1 -310.2,301.1 -310.2,292.6 
-				-312.3,292.6 -318.7,292.6 -318.7,284.1 -327.2,284.1 -327.2,275.6 -335.4,275.6 -335.4,267.1 -335.4,258.6 			"/>
+			<polygon id="XMLID_102_" fill="#1D1D1B" points="-112.95,264.3 -112.95,272.8 -112.95,281.3 -121.45,281.3 -121.45,289.8 
+				-129.15,289.8 -129.95,289.8 -129.95,298.3 -138.45,298.3 -138.45,306.8 -145.65,306.8 -146.95,306.8 -201.75,306.8 
+				-201.75,298.3 -202.45,298.3 -210.25,298.3 -210.25,289.8 -218.75,289.8 -218.75,281.3 -218.75,272.8 -236.85,272.8 
+				-236.85,281.3 -236.85,289.8 -243.95,289.8 -245.35,289.8 -245.35,298.3 -253.85,298.3 -253.85,306.8 -260.75,306.8 
+				-262.35,306.8 -308.45,306.8 -308.45,298.3 -310.55,298.3 -316.95,298.3 -316.95,289.8 -325.45,289.8 -325.45,281.3 
+				-333.65,281.3 -333.65,272.8 -333.65,264.3 			"/>
 			<g id="XMLID_95_">
-				<rect id="XMLID_101_" x="-148.7" y="275.6" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_100_" x="-157.2" y="267.1" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_99_" x="-157.2" y="284.1" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_98_" x="-165.6" y="275.6" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_97_" x="-140.2" y="267.1" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_96_" x="-174.1" y="284.1" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_101_" x="-146.95" y="281.3" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_100_" x="-155.45" y="272.8" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_99_" x="-155.45" y="289.8" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_98_" x="-163.85" y="281.3" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_97_" x="-138.45" y="272.8" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_96_" x="-172.35" y="289.8" fill="#FFFFFF" width="8.5" height="8.5"/>
 			</g>
 			<g id="XMLID_88_">
-				<rect id="XMLID_94_" x="-263.8" y="275.6" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_93_" x="-272.3" y="267.1" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_92_" x="-272.3" y="284.1" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_91_" x="-280.7" y="275.6" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_90_" x="-255.3" y="267.1" fill="#FFFFFF" width="8.5" height="8.5"/>
-				<rect id="XMLID_89_" x="-289.2" y="284.1" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_94_" x="-262.05" y="281.3" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_93_" x="-270.55" y="272.8" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_92_" x="-270.55" y="289.8" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_91_" x="-278.95" y="281.3" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_90_" x="-253.55" y="272.8" fill="#FFFFFF" width="8.5" height="8.5"/>
+				<rect id="XMLID_89_" x="-287.45" y="289.8" fill="#FFFFFF" width="8.5" height="8.5"/>
 			</g>
 		</g>
-		<rect id="XMLID_85_" x="-344" y="258.6" fill="#1D1D1B" width="8.6" height="8.5"/>
+		<rect id="XMLID_85_" x="-345.25" y="264.3" fill="#1D1D1B" width="11.6" height="8.5"/>
 	</g>
-	<rect id="XMLID_80_" x="-114.7" y="258.6" fill="#1D1D1B" width="8.6" height="8.5"/>
+	<rect id="XMLID_80_" x="-112.95" y="264.3" fill="#1D1D1B" width="11.6" height="8.5"/>
 </g>
 </svg>
