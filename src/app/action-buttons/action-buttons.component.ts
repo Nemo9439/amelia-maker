@@ -13,17 +13,22 @@ export class ActionButtonsComponent implements OnInit {
   ngOnInit() {}
 
   download() {
-    this.googleAnalyticsService.dispatchEvent('actionButtons', 'download');
     this.avatarService.saveAsPng();
+    this.googleAnalyticsService.dispatchEvent(
+      'actionButtons',
+      'download',
+      null,
+      JSON.stringify(this.avatarService.avatarState.selectedItems)
+    );
   }
 
   reset() {
-    this.googleAnalyticsService.dispatchEvent('actionButtons', 'reset');
     this.avatarService.resetAvatar();
-    this.avatarService.refreshAvatar();
+    this.googleAnalyticsService.dispatchEvent('actionButtons', 'reset');
   }
 
   random() {
+    this.avatarService.randomAvatar();
     this.googleAnalyticsService.dispatchEvent('actionButtons', 'random');
   }
 }

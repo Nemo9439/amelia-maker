@@ -1,5 +1,6 @@
 import {Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
-import {AvatarItem} from '../avatar-items.service';
+import {GoogleAnalyticsService} from '../google-analytics.service';
+import {AvatarItem} from '../items/item-util';
 
 @Component({
   selector: 'app-items-grid',
@@ -10,15 +11,16 @@ export class ItemsGridComponent implements OnInit {
   @Input() items: AvatarItem[];
   @Output() selectItemEv: EventEmitter<AvatarItem> = new EventEmitter<AvatarItem>();
 
-  constructor() {}
+  constructor(private googleAnalyticsService: GoogleAnalyticsService) {}
 
   ngOnInit() {}
 
-  getImageUrl(item) {
+  getImageUrl(item: AvatarItem) {
     return {'background-image': `url(${item.assetPath})`};
   }
 
   selectItem(item: AvatarItem) {
     this.selectItemEv.emit(item);
+    this.googleAnalyticsService.dispatchEvent('itemSelected', item.name, null, item.name);
   }
 }
