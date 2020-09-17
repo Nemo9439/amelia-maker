@@ -208,20 +208,8 @@ export const HAT_ITEMS = addNamesToItems([
     position: {x: -10, y: -110},
     size: {width: 234, height: 240},
   },
-  {
-    assetPath: 'assets/hats/Hat44.svg',
-    position: {x: -10, y: -110},
-    size: {width: 234, height: 240},
-  },
-  {
-    assetPath: 'assets/hats/Hat45.svg',
-    position: {x: -10, y: -110},
-    size: {width: 234, height: 240},
-  },
-  {
-    assetPath: 'assets/hats/Hat46.svg',
-    position: {x: -10, y: -110},
-    size: {width: 234, height: 240},
-  },
+  {assetPath: 'assets/hats/Hat44.svg', position: {x: -63, y: -160}, size: {width: 473, height: 500}},
+  {assetPath: 'assets/hats/Hat45.svg', position: {x: -70, y: -218}, size: {width: 473, height: 500}},
+  {assetPath: 'assets/hats/Hat46.svg', position: {x: -70, y: -140}, size: {width: 473, height: 341}},
   NONE_ITEM,
 ]);

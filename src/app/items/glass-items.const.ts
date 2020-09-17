@@ -25,11 +25,6 @@ export const GLASS_ITEMS = addNamesToItems([
     size: {width: 300, height: 140},
   },
   {
-    assetPath: 'assets/glasses/Glasses7.svg',
-    position: {x: 20, y: 60},
-    size: {width: 327, height: 303},
-  },
-  {
     assetPath: 'assets/glasses/Glasses8.svg',
     position: {x: 23, y: 60},
     size: {width: 326, height: 306},

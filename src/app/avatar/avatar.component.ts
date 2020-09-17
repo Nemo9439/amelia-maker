@@ -11,9 +11,9 @@ export const layersOrder = [
   ItemCategory.Base,
   ItemCategory.Beard,
   ItemCategory.Hair,
+  ItemCategory.Decoration,
   ItemCategory.Headphone,
   ItemCategory.Hat,
-  ItemCategory.Decoration,
 ];
 
 @Component({
