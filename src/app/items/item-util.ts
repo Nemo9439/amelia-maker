@@ -24,9 +24,14 @@ export enum ItemCategory {
   Hat = 'HAT',
   Headphone = 'HEADPHONE',
   Tie = 'TIE',
+  Base = 'BASE',
 }
 
 export const NONE_ITEM = {name: 'none', assetPath: '', position: {x: 0, y: 0}, size: {width: 0, height: 0}};
+
+export const BASE_ITEMS = [
+  {name: 'base', assetPath: 'assets/base-amelia.svg', position: {x: 0, y: 0}, size: {width: 370, height: 370}},
+];
 
 export const addNamesToItems = (items: Partial<AvatarItem>[]): AvatarItem[] => {
   return _.map(items, (item: AvatarItem) => {

@@ -2,7 +2,19 @@ import {Component, Input, OnChanges} from '@angular/core';
 import * as d3 from 'd3';
 import * as _ from 'lodash';
 import {AvatarState} from '../avatar.service';
-import {AvatarItem} from '../items/item-util';
+import {AvatarItem, ItemCategory} from '../items/item-util';
+
+// export const AMELIA_BASE = 'ameliaBase';
+
+export const layersOrder = [
+  ItemCategory.Glass,
+  ItemCategory.Base,
+  ItemCategory.Beard,
+  ItemCategory.Hair,
+  ItemCategory.Headphone,
+  ItemCategory.Hat,
+  ItemCategory.Tie,
+];
 
 @Component({
   selector: 'app-avatar',
@@ -30,19 +42,23 @@ export class AvatarComponent implements OnChanges {
 
   async render() {
     d3.select('#avatar').remove();
-    const width = 500,
-      height = 500;
+    const width = 600,
+      height = 600;
     const svg = d3.select('#main').append('svg').attr('id', 'avatar').attr('width', width).attr('height', height);
-    const ameliaBox = svg.append('g').attr('transform', 'translate(65,65)');
-
-    const ameliaContainer = ameliaBox.append('svg').attr('width', 370).attr('height', 370);
-
-    const data = await d3.svg('assets/base-amelia.svg');
-    ameliaContainer.node().append(data.documentElement);
+    const ameliaBox = svg.append('g').attr('transform', 'translate(110,110)');
 
     if (!this.avatarState.selectedItems) {
       return;
     }
-    _.map(this.avatarState.selectedItems, item => this.drawSelectedItem(ameliaBox, item));
+
+    layersOrder.forEach(async itemCategory => {
+      // if (itemCategory === AMELIA_BASE) {
+      //   const data = await d3.svg('assets/base-amelia.svg');
+      //   const ameliaContainer = ameliaBox.append('svg').attr('width', 370).attr('height', 370);
+      //   ameliaContainer.node().append(data.documentElement);
+      //   return;
+      // }
+      await this.drawSelectedItem(ameliaBox, this.avatarState.selectedItems[itemCategory]);
+    });
   }
 }

@@ -2,11 +2,10 @@ import {Injectable} from '@angular/core';
 import * as svgHelper from 'save-svg-as-png';
 import * as d3 from 'd3';
 import * as _ from 'lodash';
-import { GLASS_ITEMS } from './items/glass-items.const';
-import { HAIR_ITEMS } from './items/hair-items.const';
-import { HAT_ITEMS } from './items/hat-items.const';
-import { ItemCategory, AvatarItem } from './items/item-util';
-
+import {GLASS_ITEMS} from './items/glass-items.const';
+import {HAIR_ITEMS} from './items/hair-items.const';
+import {HAT_ITEMS} from './items/hat-items.const';
+import {ItemCategory, AvatarItem, BASE_ITEMS} from './items/item-util';
 
 export type SelectedItems = {
   [key in ItemCategory]: AvatarItem;
@@ -19,6 +18,7 @@ export interface AvatarState {
 export const DEFAULT_ITEMS: Partial<SelectedItems> = {
   [ItemCategory.Hair]: _.first(HAIR_ITEMS),
   [ItemCategory.Glass]: _.first(GLASS_ITEMS),
+  [ItemCategory.Base]: _.first(BASE_ITEMS),
 };
 
 @Injectable({
@@ -53,6 +53,7 @@ export class AvatarService {
       [ItemCategory.Hair]: _.sample(HAIR_ITEMS),
       [ItemCategory.Glass]: _.sample(GLASS_ITEMS),
       [ItemCategory.Hat]: _.sample(HAT_ITEMS),
+      [ItemCategory.Base]: _.first(BASE_ITEMS),
     };
     this.setAvatarItems(randomItems);
   }
