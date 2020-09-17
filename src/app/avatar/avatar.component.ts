@@ -13,7 +13,7 @@ export const layersOrder = [
   ItemCategory.Hair,
   ItemCategory.Headphone,
   ItemCategory.Hat,
-  ItemCategory.Tie,
+  ItemCategory.Decoration,
 ];
 
 @Component({
@@ -29,6 +29,9 @@ export class AvatarComponent implements OnChanges {
   }
 
   private async drawSelectedItem(ameliaBox, item: AvatarItem) {
+    if (!item) {
+      return;
+    }
     const itemContainer = ameliaBox
       .append('svg')
       .attr('width', item.size.width)

@@ -31,17 +31,17 @@ export const GLASS_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/glasses/Glasses8.svg',
-    position: {x: 25, y: 60},
+    position: {x: 23, y: 60},
     size: {width: 326, height: 306},
   },
   {
     assetPath: 'assets/glasses/Glasses9.svg',
-    position: {x: 25, y: 60},
+    position: {x: 23, y: 60},
     size: {width: 326, height: 306},
   },
   {
     assetPath: 'assets/glasses/Glasses10.svg',
-    position: {x: 25, y: 60},
+    position: {x: 23, y: 60},
     size: {width: 326, height: 306},
   },
   {
@@ -97,12 +97,12 @@ export const GLASS_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/glasses/Glasses21.svg',
-    position: {x: 1, y: 130},
+    position: {x: -2, y: 130},
     size: {width: 370, height: 155},
   },
   {
     assetPath: 'assets/glasses/Glasses22.svg',
-    position: {x: 17, y: 132},
+    position: {x: 15, y: 132},
     size: {width: 335, height: 150},
   },
   {
@@ -166,13 +166,8 @@ export const GLASS_ITEMS = addNamesToItems([
     size: {width: 264, height: 102},
   },
   {
-    assetPath: 'assets/glasses/Glasses35.svg',
-    position: {x: 57, y: 162},
-    size: {width: 264, height: 102},
-  },
-  {
     assetPath: 'assets/glasses/Glasses36.svg',
-    position: {x: 35, y: 145},
+    position: {x: 33, y: 145},
     size: {width: 300, height: 150},
   },
   {
@@ -187,17 +182,17 @@ export const GLASS_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/glasses/Glasses39.svg',
-    position: {x: 43, y: 150},
+    position: {x: 41, y: 150},
     size: {width: 295, height: 135},
   },
   {
     assetPath: 'assets/glasses/Glasses40.svg',
-    position: {x: 43, y: 150},
+    position: {x: 41, y: 150},
     size: {width: 295, height: 135},
   },
   {
     assetPath: 'assets/glasses/Glasses41.svg',
-    position: {x: 43, y: 150},
+    position: {x: 41, y: 150},
     size: {width: 295, height: 135},
   },
   {
@@ -237,18 +232,18 @@ export const GLASS_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/glasses/Glasses49.svg',
-    position: {x: 50, y: 152},
+    position: {x: 48, y: 152},
     size: {width: 270, height: 130},
   },
-  {assetPath: 'assets/glasses/Glasses50.svg', position: {x: 50, y: 152}, size: {width: 270, height: 130}},
-  {assetPath: 'assets/glasses/Glasses51.svg', position: {x: 50, y: 152}, size: {width: 270, height: 130}},
+  {assetPath: 'assets/glasses/Glasses50.svg', position: {x: 48, y: 152}, size: {width: 270, height: 130}},
+  {assetPath: 'assets/glasses/Glasses51.svg', position: {x: 48, y: 152}, size: {width: 270, height: 130}},
   {assetPath: 'assets/glasses/Glasses52.svg', position: {x: 50, y: 150}, size: {width: 270, height: 130}},
   {assetPath: 'assets/glasses/Glasses53.svg', position: {x: 50, y: 150}, size: {width: 270, height: 130}},
   {assetPath: 'assets/glasses/Glasses54.svg', position: {x: 50, y: 150}, size: {width: 270, height: 130}},
   {assetPath: 'assets/glasses/Glasses55.svg', position: {x: 50, y: 150}, size: {width: 270, height: 130}},
-  {assetPath: 'assets/glasses/Glasses56.svg', position: {x: 50, y: 152}, size: {width: 270, height: 130}},
-  {assetPath: 'assets/glasses/Glasses57.svg', position: {x: 50, y: 152}, size: {width: 270, height: 130}},
-  {assetPath: 'assets/glasses/Glasses58.svg', position: {x: 50, y: 152}, size: {width: 270, height: 130}},
+  {assetPath: 'assets/glasses/Glasses56.svg', position: {x: 49, y: 152}, size: {width: 270, height: 130}},
+  {assetPath: 'assets/glasses/Glasses57.svg', position: {x: 49, y: 152}, size: {width: 270, height: 130}},
+  {assetPath: 'assets/glasses/Glasses58.svg', position: {x: 49, y: 152}, size: {width: 270, height: 130}},
   {assetPath: 'assets/glasses/Glasses59.svg', position: {x: 47, y: 152}, size: {width: 270, height: 130}},
   {
     assetPath: 'assets/glasses/Glasses60.svg',
@@ -262,7 +257,7 @@ export const GLASS_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/glasses/Glasses62.svg',
-    position: {x: 53, y: 152},
+    position: {x: 50, y: 152},
     size: {width: 270, height: 130},
   },
   {
@@ -282,11 +277,11 @@ export const GLASS_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/glasses/Glasses66.svg',
-    position: {x: 52, y: 152},
+    position: {x: 50, y: 152},
     size: {width: 270, height: 130},
   },
-  {assetPath: 'assets/glasses/Glasses67.svg', position: {x: 52, y: 152}, size: {width: 270, height: 130}},
-  {assetPath: 'assets/glasses/Glasses68.svg', position: {x: 52, y: 152}, size: {width: 270, height: 130}},
+  {assetPath: 'assets/glasses/Glasses67.svg', position: {x: 50, y: 152}, size: {width: 270, height: 130}},
+  {assetPath: 'assets/glasses/Glasses68.svg', position: {x: 50, y: 152}, size: {width: 270, height: 130}},
   {assetPath: 'assets/glasses/Glasses69.svg', position: {x: 23, y: 155}, size: {width: 310, height: 123}},
   {assetPath: 'assets/glasses/Glasses70.svg', position: {x: 29, y: 160}, size: {width: 310, height: 123}},
   {assetPath: 'assets/glasses/Glasses71.svg', position: {x: 29, y: 160}, size: {width: 310, height: 123}},

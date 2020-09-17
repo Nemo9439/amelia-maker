@@ -23,7 +23,7 @@ export enum ItemCategory {
   Glass = 'GLASS',
   Hat = 'HAT',
   Headphone = 'HEADPHONE',
-  Tie = 'TIE',
+  Decoration = 'DECORATION',
   Base = 'BASE',
 }
 

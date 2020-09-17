@@ -1,8 +1,6 @@
-import { addNamesToItems, NONE_ITEM } from './item-util';
-
+import {addNamesToItems, NONE_ITEM} from './item-util';
 
 export const HAT_ITEMS = addNamesToItems([
-  {assetPath: 'assets/hats/Hat1.svg', position: {x: -100, y: -140}, size: {width: 577, height: 598}},
   {assetPath: 'assets/hats/Hat2.svg', position: {x: 65, y: -160}, size: {width: 320, height: 363}},
   {
     assetPath: 'assets/hats/Hat3.svg',
@@ -142,7 +140,7 @@ export const HAT_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/hats/Hat30.svg',
-    position: {x: -15, y: -140},
+    position: {x: 10, y: -140},
     size: {width: 361, height: 287},
   },
   {
@@ -197,6 +195,31 @@ export const HAT_ITEMS = addNamesToItems([
   },
   {
     assetPath: 'assets/hats/Hat41.svg',
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
+  },
+  {
+    assetPath: 'assets/hats/Hat42.svg',
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
+  },
+  {
+    assetPath: 'assets/hats/Hat43.svg',
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
+  },
+  {
+    assetPath: 'assets/hats/Hat44.svg',
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
+  },
+  {
+    assetPath: 'assets/hats/Hat45.svg',
+    position: {x: -10, y: -110},
+    size: {width: 234, height: 240},
+  },
+  {
+    assetPath: 'assets/hats/Hat46.svg',
     position: {x: -10, y: -110},
     size: {width: 234, height: 240},
   },

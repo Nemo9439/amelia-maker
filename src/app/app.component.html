@@ -36,10 +36,10 @@
         (selectItemEv)="avatarService.selectItem($event, ItemCategory.Headphone)"
       ></app-items-grid>
     </mat-tab>
-    <mat-tab label="Ties">
+    <mat-tab label="Decorations">
       <app-items-grid
-        [items]="TIE_ITEMS"
-        (selectItemEv)="avatarService.selectItem($event, ItemCategory.Tie)"
+        [items]="DECORATION_ITEMS"
+        (selectItemEv)="avatarService.selectItem($event, ItemCategory.Decoration)"
       ></app-items-grid>
     </mat-tab>
   </mat-tab-group>

@@ -15,5 +15,6 @@ export const HEADPHONE_ITEMS = addNamesToItems([
   {assetPath: 'assets/headphones/Headphones8.svg', position: {x: -30, y: 140}, size: {width: 445, height: 322}},
   {assetPath: 'assets/headphones/Headphones9.svg', position: {x: -30, y: 50}, size: {width: 445, height: 322}},
   {assetPath: 'assets/headphones/Headphones10.svg', position: {x: 145, y: 95}, size: {width: 314, height: 322}},
+  {assetPath: 'assets/headphones/Headphones11.svg', position: {x: 145, y: 95}, size: {width: 314, height: 322}},
   NONE_ITEM,
 ]);
