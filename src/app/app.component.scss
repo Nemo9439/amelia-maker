@@ -6,16 +6,15 @@
 .main-content {
   max-width: 1700px;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .avatar-section {
   margin-right: 50px;
-  margin-top: 70px;
 }
 
 .items-gallery {
   max-width: calc(100vw - 700px);
-  margin-top: 10px;
 }
 
 app-action-buttons {

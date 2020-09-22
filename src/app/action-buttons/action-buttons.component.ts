@@ -14,12 +14,7 @@ export class ActionButtonsComponent implements OnInit {
 
   download() {
     this.avatarService.saveAsPng();
-    this.googleAnalyticsService.dispatchEvent(
-      'actionButtons',
-      'download',
-      null,
-      JSON.stringify(this.avatarService.avatarState.selectedItems)
-    );
+    this.googleAnalyticsService.sendDownloadedItems(this.avatarService.avatarState.selectedItems);
   }
 
   reset() {
