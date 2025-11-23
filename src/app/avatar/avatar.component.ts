@@ -39,7 +39,7 @@ export class AvatarComponent implements OnChanges {
       .attr('x', item.position.x)
       .attr('y', item.position.y);
 
-    const data = await d3.svg(item.assetPath);
+    const data = await d3.xml(item.assetPath);
     itemContainer.node().append(data.documentElement);
   }
 
@@ -56,7 +56,7 @@ export class AvatarComponent implements OnChanges {
 
     layersOrder.forEach(async itemCategory => {
       // if (itemCategory === AMELIA_BASE) {
-      //   const data = await d3.svg('assets/base-amelia.svg');
+      //   const data = await d3.xml('assets/base-amelia.svg');
       //   const ameliaContainer = ameliaBox.append('svg').attr('width', 370).attr('height', 370);
       //   ameliaContainer.node().append(data.documentElement);
       //   return;
