@@ -23,6 +23,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "optimization": {
+              "fonts": {
+                "inline": false
+              }
+            },
             "assets": [
               "src/favicon.ico",
               "src/assets"
